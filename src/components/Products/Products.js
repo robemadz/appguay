@@ -4,7 +4,7 @@ import Product from '../Product/Product'
 export default class Products extends Component {
     render() {
 
-        let data = [{name:"botella", price:"10"},
+        let data = [{name:"botella", price:"10  "},
         {name:"cosa", price:"3"},
         {name:"Silla", price:"20"},
         {name:"queso", price:"4"}]
