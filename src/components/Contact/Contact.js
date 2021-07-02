@@ -43,6 +43,8 @@ componentDidUpdate(prevProps, prevState) {
 
   render() {
     return (
+      <>
+      <h2>Contacto</h2>
       <div>
         <form onSubmit={this.handleSubmit}>
           <label>
@@ -54,6 +56,7 @@ componentDidUpdate(prevProps, prevState) {
         <p>Ha introducido: {this.state.name}</p>
         {this.ShowMessage()}
       </div>
+    </>
     )
   }
 }

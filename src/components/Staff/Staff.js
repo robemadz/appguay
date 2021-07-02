@@ -32,7 +32,10 @@ import PokemonsApi from '../PokemonsApi'
     render() {
       console.log('RENDER')
       return (
+          <>
+          <h2> Lista de staff</h2>
           <PokemonsApi lista={this.state.pokeLista}></PokemonsApi>
+          </>
       );
   }
 }

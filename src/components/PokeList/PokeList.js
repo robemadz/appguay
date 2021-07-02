@@ -35,6 +35,7 @@ handleShow = () => {
     // const lista = [{ name: 'pokeapi', ulr: 'https://pokeapi.co/' }]
       return (
           <>
+            <h2>Pokelist</h2>
             <button className="button" onClick={this.handleClick}>Change Props from father</button>
             <button className="button" onClick={this.handleShow}>{this.state.mostrar ? 'Ocultar' : 'Mostrar'}</button>
             { this.state.mostrar ? <LifeCycleComponent defaultList={this.state.lista}></LifeCycleComponent> : null }
