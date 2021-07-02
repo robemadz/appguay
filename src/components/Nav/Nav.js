@@ -28,6 +28,9 @@ class Nav extends Component {
             <Link to="/staff">Quienes somos</Link>
           </li>
           <li>
+            <Link to="/pokelist">Pokelist</Link>
+          </li>
+          <li>
             <Link to="/contact">Contacto</Link>
           </li>
         </ul>

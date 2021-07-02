@@ -30,6 +30,17 @@ class Contact extends Component {
 
   ShowMessage = ()=> this.state.data?<h3>Gracias {this.state.data.user.name} Su ID de envío es: {this.state.data.id}</h3>:""
 
+componentDidUpdate(prevProps, prevState) {
+  console.log("******ESTADO******")
+  console.log("presente"+this.state.name)
+  console.log("pasado"+prevState.name)
+
+  console.log("*****PROPS*****")
+  console.log(this.props)
+  console.log(prevProps)
+}
+
+
   render() {
     return (
       <div>
